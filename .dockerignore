@@ -1,0 +1,13 @@
+.git
+.agent
+node_modules
+dist
+dist-ssr
+coverage
+.vercel
+.env
+.env.*
+*.local
+*.log
+**/*.pem
+**/*.key

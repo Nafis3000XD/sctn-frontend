@@ -5,3 +5,5 @@
 - Citizen profile correction entry points open the assistant instead of editing official fields directly. Drafts are tab-scoped, resume after reload when the assistant is opened, and clear on successful submit, discard, or logout. Passwords and verification grants are never placed in draft storage.
 - Admin and citizen share `ChangeRequestsView`. The admin may accept or decline. Citizen receives status and notification.
 - Shared status badge is present on sign-in, registration and the dashboard navbar.
+
+- 2026-11-20 deployment packaging. Root Dockerfile builds Vite and serves it with Caddy. Vercel uses a configurable HTTPS API origin for same-origin API and media routing. See [deployment setup](DEPLOYMENT.md).

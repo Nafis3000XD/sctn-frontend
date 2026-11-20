@@ -7,6 +7,8 @@ Read these before editing:
 - [.agent/CHANGELOG.md](.agent/CHANGELOG.md)
 - [Integration runbook](https://github.com/Nafis3000XD/sctn-web/blob/main/.agent/RUNBOOK.md)
 
+- [.agent/DEPLOYMENT.md](.agent/DEPLOYMENT.md)
+
 ## Handoff after each conversation
 
 - When a conversation changes this project or confirms a new project decision, update the relevant `.agent/MEMORY.md` before handing off. Update the project-level memory in the integration repository for cross-component or deployment changes.

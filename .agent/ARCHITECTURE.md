@@ -25,3 +25,7 @@ This React 19 and TypeScript SPA builds with Vite, uses Tailwind CSS and Lucide 
 - Verifier: `/verifier`, `/verifier/search`, and `/verifier/grants`. Available views depend on the signed-in role.
 
 Backend contracts and all HTTP endpoints are documented in the [backend inventory](https://github.com/Nafis3000XD/sctn-backend/blob/main/.agent/ENDPOINTS.md). The [integration runbook](https://github.com/Nafis3000XD/sctn-web/blob/main/.agent/RUNBOOK.md) covers Render, local startup and source synchronization.
+
+## Deployment entry points
+
+Root Dockerfile builds Vite and serves it with Caddy. Vercel uses a configurable HTTPS API origin for same-origin API and media routing. See [deployment setup](DEPLOYMENT.md).
